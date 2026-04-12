@@ -1,0 +1,23 @@
+{
+  "name": "videotube-project",
+  "version": "1.0.0",
+  "description": "a project inspired by youtube",
+  "license": "ISC",
+  "author": "Abhay Tewatia",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev" : "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  }
+}
