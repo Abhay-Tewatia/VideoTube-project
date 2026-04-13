@@ -1,7 +1,12 @@
-/.vscode
-/.node_modules
-./dist
+# dependencies
+node_modules/
 
-*.env
+# build files
+dist/
+
+# environment files
 .env
 .env.*
+
+# IDE files
+.vscode/
